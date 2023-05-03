@@ -88,6 +88,16 @@ h1, h3 {
     color: white;
   }
 
+.pie {
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.map {
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
   .PieMap {
     background-color: black;
     flex-wrap: wrap;
