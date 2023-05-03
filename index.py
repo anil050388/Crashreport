@@ -14,6 +14,7 @@ import os
 
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY, dbc.icons.BOOTSTRAP])
+server = app.server
 
 TotalCrashes = pd.read_excel('USA_Crashes.xlsx')
 TotalCrashes = TotalCrashes.convert_dtypes()
