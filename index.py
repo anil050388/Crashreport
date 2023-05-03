@@ -145,7 +145,7 @@ app.layout = html.Div(
                             style={'background':'#00FC87','padding-bottom':'0px','padding-left':'0px','height':'60vh',
                                    'width':'100vh'})
                 ]),                             
-           ],className="seven columns"),
+           ],className="seven columns map"),
            
            dbc.Col([
                 html.Div([
@@ -153,7 +153,7 @@ app.layout = html.Div(
                                                     'scrollZoom': False}, 
                             style={'background':'#00FC87','padding-bottom':'0px','padding-left':'0px','height':'60vh'})
                 ]),
-           ],className="five columns")
+           ],className="five columns pie")
         ],className='PieMap'),
         
         html.Br(),
